@@ -2,11 +2,11 @@
 _Antes de iniciar con los ejercicios asegúrense de tener instalado correctamente Python y un IDE (preferentemente Visual Studio Code). Además, en los sistemas que tengan Linux y Mac tienen que tener instalado Bash._
 
 ##### **Ejercicio 1**
- Escribir un programa que imprima la longitud de un string el cual se lee por teclado.
+ #Escribir un programa que imprima la longitud de un string el cual se lee por teclado.
 def longitud(un_string):
     return len(un_string)
 ##### **Ejercicio 2**
-Realizar un programa donde se imprima la 5ta y 6ta letra de un string pasado por teclado en mayúscula (Asegurarse de que el string tenga la cantidad de caracteres suficientes).
+#Realizar un programa donde se imprima la 5ta y 6ta letra de un string pasado por teclado en mayúscula (Asegurarse de que el string tenga la cantidad de caracteres suficientes).
 string = input("Ingrese una palabra: ")
 if len(string) >= 6: 
     print(str.upper(string[4:6])
@@ -14,7 +14,7 @@ if len(string) >= 6:
     print("Su frase no tiene suficientes caracteres, por favor intente nuevamente")
 
 ##### **Ejercicio 3**
-Escribir un programa que pregunte el nombre y apellido al usuario y lo salude.
+#Escribir un programa que pregunte el nombre y apellido al usuario y lo salude.
 Nombre_completo = input("Ingresar Nombre y apellido: ")
 print("Hola", nombre_completo)
 ##### **Ejercicio 4**
